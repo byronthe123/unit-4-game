@@ -89,7 +89,6 @@ $(document).ready(function() {
                 }
                 characters[i].generateAP();
             }
-            
             // console.log(characters.find(char => char.type === 'player'));
 
             $('.chars').each(function(i, val) {
