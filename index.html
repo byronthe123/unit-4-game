@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+    <link rel='stylesheet' href='assets/css/style.css' />
+  </head>
+  <body>
+    <div class='col-lg-12 div_start_game'>
+        <button id='btn_startGame'>START GAME</button>
+    </div>
+    <div class='container'>
+
+      <!-- Title -->
+      <div class='row'>
+        <div class='col-lg-12 text-center'>
+          <h1>LoTR RPG Game</h1>
+        </div>
+      </div>
+
+      <!-- Your character title -->
+      <div class='row'>
+        <div class='col-lg-12'>
+          <!-- <h2  id='h2_character'>Select Your Character:</h2> -->
+          <h2 id='subtitle'><span id='h2_character'>Select Your Character:</span></h2>
+        </div>
+      </div>
+
+      <!-- All Characters, class: chars -->
+      <div class='row div_select_char'>
+
+      </div>
+
+    <!-- Enemies available to attack, class: selectable_enemies -->
+    <div class='row div_select_enemy'>
+      <div class='col-lg-12'>
+        <h2><span>Available Enemies:</span></h2>
+      </div>
+    </div>
+
+    <!-- Fight button -->
+    <div class='row'>
+      <div class='col-lg-12'>
+        <button id='btn_fight'>Fight</button>
+        <button id='btn_restart'>Restart</button>
+      </div>
+    </div>
+
+    <!-- playing_enemy -->
+    <div class='row div_playing_enemy'>
+      <div class='col-lg-12'>
+        <h2><span>Current Enemy:</span></h2>
+      </div>
+    </div>
+
+    <div class='row'>
+      <div class='col-lg-12'>
+        <h3><span id='out_fightStatus'>&nbsp</span></h3>
+      </div>
+    </div>
+
+    <div id='bottom'></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src='assets/js/app.js'></script>
+  </body>
+</html>
